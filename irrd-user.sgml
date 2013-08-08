@@ -89,6 +89,16 @@ User/Configuration Guide</title>
 	  Document the mirror_protocol config option
        </revremark>
    </revision>
+   <revision>
+     <revnumber>2.3.11</revnumber>
+       <date>2013-08-09</date>
+       <authorinitials>jwjs</authorinitials>
+       <revremark>
+	  Add support for import-via/export-via based on
+      IETF draft-snijders-rpsl-via
+       </revremark>
+   </revision>
+<
 </revhistory>
 <copyright>
 <year>1999</year>
@@ -99,6 +109,7 @@ User/Configuration Guide</title>
 <year>2004</year>
 <year>2008</year>
 <year>2010</year>
+<year>2013</year>
 <holder>
 The Regents of the University of Michigan ("The Regents") and
 Merit Network, Inc.  All rights reserved.</holder>
@@ -1240,6 +1251,22 @@ RFC-2769: Routing Policy System Replication
      mechanism of distributing data  from registry to registry.
      Status: IRRd does not yet support this RFC.
 </literallayout></para>
+<para>
+RFC-4012: Routing Policy Specification Language next generation (RPSLng)
+<literallayout>
+    This memo introduces a new set of simple extensions to the Routing
+    Policy Specification Language (RPSL), enabling the language to
+    document routing policies for the IPv6 and multicast address families
+    currently used in the Internet.
+</literallayout></para>
+<para>
+I-D draft-snijders-rpsl-via: The "import-via" and "export-via" attributes in RPSL Policy Specifications
+<literallayout>
+    This document defines two attributes in the aut-num Class which can
+    be used in RPSL policy specifications to publish desired routing
+    policy regarding non-adjacent networks.
+</literallayout></para>
+
 </chapter>
 <appendix>
 <title>IRRdCacher</title>
