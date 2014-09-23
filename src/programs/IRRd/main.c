@@ -2,6 +2,9 @@
  * $Id: main.c,v 1.37 2002/10/17 20:02:31 ljb Exp $
  * originally Id: main.c,v 1.57 1998/08/03 17:29:08 gerald Exp 
  */
+oiwnefowienfeowinf woiwef; wef
+[plwef[lew finwef powemfp onewoivn'oe[ifn[oqinef['oiwenfowinfvewoineow ifewpifjnwe [oing[oiwenfoifnew'oifnewoifnewoifnweo'ifnwe'oifnew' ovinv[oweinf we'oifnjwe'ofinwo vinewvoiwne v
+
 
 #include <sys/types.h>
 #include <sys/stat.h>
